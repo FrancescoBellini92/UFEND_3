@@ -14,13 +14,13 @@ function logger(req, res, next) {
 }
 
 function makeResponsePayload(data) {
-  return {success: true, data}
+  return { success: true, data }
 }
 app.use(logger, bodyParser.json(), cors());
 
 app.get(
   '/weather',
-  (req, res, next) => req.query && req.query.location ? next() : res.status(400).json({ error: 'missing location query parameter' }), 
+  (req, res, next) => req.query && req.query.location ? next() : res.status(400).json({ error: 'missing location query parameter' }),
   async (req, res) => {
     function makeAPIEndpoint(location) {
       const { apiKey, apiBaseUrl } = environment;
