@@ -1,0 +1,17 @@
+.bg-primary {
+    background-color: var(--color-primary) !important;
+    color: var(--color-primary-contrast) !important;
+}
+
+.color-primary {
+    color: var(--color-primary);
+    border-color: var(--color-primary) !important;
+}
+
+.shadow {
+    box-shadow: 1px;
+}
+
+.borders {
+    border: 1px solid grey;
+}
