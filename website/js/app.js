@@ -96,7 +96,7 @@ function main() {
     if (entryResponse) {
       removeClass('hidden', lastEntryContainer);
       dateEntry.value = entryResponse.created.slice(0, 10);
-      weatherEntry.value = `${entryResponse.weather.weather[0].main}: ${entryResponse.weather.weather[0].description} - ${(entryResponse.weather.main.temp - 273).toFixed(0)} °C`;
+      weatherEntry.value = `${entryResponse.weather.weather[0].main} - ${(entryResponse.weather.main.temp - 273).toFixed(0)} °C`;
       feelingEntry.value = entryResponse.feelings;
     }
   }
