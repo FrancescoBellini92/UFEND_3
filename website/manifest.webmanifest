@@ -1,0 +1,14 @@
+{
+  "name": "Weather Journal",
+  "short_name": "Weather Journal",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#195D74",
+  "description": "Project developed for the Udacity FEND",
+  "icons": [{
+    "src": "assets/icon144.png",
+    "sizes": "144x144",
+    "type": "image/png"
+  }]
+}
