@@ -11,9 +11,9 @@ function main() {
   const generateBtn = $('#generate');
   const loader = $('#loader');
   const lastEntryContainer = $('#last-entry');
-  const dateEntry = $('#date');
-  const weatherEntry = $('#temp');
-  const feelingEntry = $('#content');
+  const dateEntry = $('#date-input');
+  const weatherEntry = $('#temp-input');
+  const feelingEntry = $('#content-input');
 
   function $(selector) {
     return selector.includes('#') ? document.querySelector(selector) : document.querySelectorAll(selector);
