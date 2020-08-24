@@ -1,7 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
-const fetch = require('node-fetch'); // safer to call API from backend, to keep API key secret
+const fetch = require('node-fetch');
 const environment = require('./environment');
 
 const app = express();
@@ -34,6 +34,10 @@ app.get(
 
     const apiUrl = makeAPIEndpoint(req.query.location);
     const apiResponse = await queryAPI(apiUrl);
+    if (apiResponse.cod === '404') {
+      res.status('404').send();
+      return;
+    }
     res.json(makeResponsePayload(apiResponse));
   }
 );
