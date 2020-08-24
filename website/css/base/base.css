@@ -2,7 +2,7 @@
   --color-primary: rgb(25, 93, 116);
   --color-primary-contrast: rgb(255, 255, 255);
   --color-border: silver;
-  font-family: sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 * {
