@@ -8,4 +8,13 @@ On the Javascript side, API calls with sensitive data (i.e, API key) are done on
 
 Client-side, js code handles requests to-from the backend and UI update logic. Performance impact is kepts low by caching elements. Logic runs in an enclosed main function to avoid exposing global variables.
 
+
 Project is deployed at https://ufend-weather-journal.herokuapp.com/
+#
+## Dependencies
+
+Please refer to package.json for dependencies
+
+#
+## How to run
+npm start will run the server, which is providing a small API as well as serving the main page
