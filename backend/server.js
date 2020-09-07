@@ -35,7 +35,7 @@ app.get(
     const apiUrl = makeAPIEndpoint(req.query.location);
     const apiResponse = await queryAPI(apiUrl);
     if (apiResponse.cod === '404') {
-      res.status('404').send();
+      res.status(404).send();
       return;
     }
     res.json(makeResponsePayload(apiResponse));
