@@ -21,6 +21,10 @@
     0 6.7px 5.3px rgba(0, 0, 0, 0.048), 0 12.5px 10px rgba(0, 0, 0, 0.06);
 }
 
+.small {
+  width: 50px;
+}
+
 .column {
   display: flex;
   flex-direction: column;

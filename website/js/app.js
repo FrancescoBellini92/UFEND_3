@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
         save(entryResponse);
         updateUIOnResponse(entryResponse);
       } catch (e) {
-        console.log(e);
+        alert('Something went wrong :(');
       } finally {
         updateUIOnResponse(entryResponse)
       }
