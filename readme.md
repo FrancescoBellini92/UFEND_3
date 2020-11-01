@@ -1,5 +1,7 @@
 ## Udacity Front End ND project 3
 
+Third project for the Udacity Front End Nanodegree: this project required building a web app interacting with external APIs and backend by a Node server.
+
 This repo contains a simple web page for taking notes about weather-related feelings
 
 BEM methodoloy has been applied to promote DRY code and style encapsulation, and a mobile-first approach was followed to good cross-device user experience.
