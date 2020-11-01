@@ -1,6 +1,6 @@
 ## Udacity Front End ND project 3
 
-Third project for the Udacity Front End Nanodegree: this project required building a web app interacting with external APIs and backend by a Node server.
+Third project for the Udacity Front End Nanodegree: this project required building a web app interacting with external APIs and backed by a Node server.
 
 This repo contains a simple web page for taking notes about weather-related feelings
 
